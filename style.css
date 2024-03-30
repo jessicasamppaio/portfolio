@@ -560,3 +560,23 @@ span {
         grid-template-columns: repeat(1, fr);
     }
 }
+
+#topBtn {
+    display: none;
+    position: fixed;
+    bottom: 20px;
+    right: 30px;
+    z-index: 99;
+    font-size: 50px;
+    border: none;
+    outline: none;
+    color: #7b4bb7;
+    cursor: pointer;
+    padding: 0;
+    background-color: transparent;
+  }
+  
+  #topBtn:hover {
+    color: #9300c0;
+  }
+  
