@@ -93,6 +93,7 @@ body {
 
     #menu-icon {
         display: block;
+        color: #7b4bb7;
     }
 
     .navbar {
@@ -298,6 +299,7 @@ span {
 
 .projetos {
     background-color: var(--bg-color);
+    margin-bottom: 0;
 }
 
 .projects-container {
@@ -376,6 +378,7 @@ span {
     .projetos {
         padding-bottom: 7rem;
     }
+
 }
 
 @media (max-width: 895px) {
@@ -391,8 +394,9 @@ span {
 .skills {
     background-color: var(--bg-color);
     color: var(--text-color);
-    padding: 5rem 0;
+    padding: 20rem 0;
     text-align: center;
+    margin-top: -5rem;
 }
 
 .skills .heading {
@@ -404,7 +408,7 @@ span {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
-    gap: 2rem;
+    gap: 3rem;
     filter: drop-shadow(3px 0 0 var(--main-color));
 }
 
@@ -417,7 +421,6 @@ span {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    padding: 20px;
     transition: transform 0.3s ease;
 }
 
@@ -434,4 +437,126 @@ span {
 #html, #css, #js, #sql {
     font-size: 8em;
     
+}
+
+.contact {
+    background-color: var(--bg-color);
+    padding-top: 2rem;
+}
+
+.contact form {
+    max-width: 70rem;
+    margin: 1rem auto;
+    margin-bottom: 3rem;
+    text-align: center;
+}
+
+.contact form .input-box {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.contact form .input-box input, .contact form textarea {
+    width: 100%;
+    padding: 1.5rem;
+    font-size: 1.6rem;
+    color: var(--text-color);
+    background-color: var(--bg-color);
+    border-radius: 0.8rem;
+    border: 2px solid var(--main-color);
+    margin: 1rem 0;
+    resize: none;
+}
+
+.contact form .btn {
+    margin-top: 2rem;
+}
+
+.footer {
+    position: relative;
+    bottom: 0;
+    width: 100%;
+    padding: 40px 0;
+    background-color: var(--main-color);
+}
+
+.footer .social {
+    text-align: center;
+    padding-bottom: 25px;
+    color: #000000;
+}
+
+
+.footer .social a {
+    font-size: 25px;
+    color: #000000;
+    border: 2px solid black;
+    width: 42px;
+    height: 42px;
+    line-height: 42px;
+    display: inline-block;
+    text-align: center;
+    border-radius: 50%;
+    margin: 0 10px;
+    transition: 0.3s ease;
+}
+
+.footer .social a:hover {
+    transform: scale(1.2)translateY(-5px);
+    background: #000000;
+    color: var(--main-color);
+}
+
+.copyright {
+    font-size: 2rem;
+    margin-top: 5rem;
+}
+
+@media(max-width: 1285px) {
+    html {
+        font-size: 55%;
+    }
+
+    .projects-container {
+        padding-bottom: 1rem;
+        padding-top: 1rem;
+        grid-template-columns: repeat(1, 1fr);
+        margin: 0 2rem;
+    }
+
+    .skills {
+        padding: 6rem 0;
+    }
+
+}
+
+@media(max-width: 991px) {
+    .header {
+        padding: 2rem 3%;
+    }
+
+    section {
+        padding: 10rem 3% 2rem;
+    }
+
+    .projetos {
+        padding-bottom: 7rem;
+    }
+
+    .footer {
+        padding: 2rem 3%;
+    }
+
+}
+
+@media(max-width: 895px) {
+
+    .projetos {
+        margin-bottom: 3rem;
+    }
+
+    .projects-container {
+        grid-template-columns: repeat(1, fr);
+    }
 }
