@@ -20,6 +20,16 @@ window.addEventListener('scroll', () => {
     });
 });
 
+document.addEventListener('DOMContentLoaded', function () {
+    const menuIcon = document.getElementById('menu-icon');
+    const navbar = document.querySelector('.navbar');
+
+    menuIcon.addEventListener('click', function () {
+        navbar.classList.toggle('active');
+    });
+});
+
+
 ScrollReveal().reveal('.home-img', {
     origin: 'top',
     duration: 2000,
