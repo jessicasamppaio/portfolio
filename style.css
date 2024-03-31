@@ -234,6 +234,15 @@ span {
     font-size: 34px;
     font-weight: 600;
     min-width: 280px;
+    max-width: 100%;
+    overflow: hidden; /* Para garantir que o texto extra não seja exibido */
+    white-space: nowrap; /* Impede que o texto seja quebrado em várias linhas */
+    text-overflow: ellipsis; /* Adiciona reticências se o texto for maior que o contêiner */
+}
+
+.typing-text span::after {
+    content: attr(data-content);
+    animation: words 9s infinite;
 }
 
 .typing-text span {
@@ -255,19 +264,13 @@ span {
 }
 
 @keyframes words {
-
-    0%,
-    33% {
+    0%, 33% {
         content: 'Front End Developer';
     }
-
-    34%,
-    66% {
+    34%, 66% {
         content: 'UI/UX Designer';
     }
-
-    67%,
-    100% {
+    67%, 100% {
         content: 'Software Developer';
     }
 }
