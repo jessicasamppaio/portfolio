@@ -2,15 +2,9 @@
 
 ![Banner](./img/home%20projeto.png)
 
-🚀 Aqui você encontrará uma coleção dos meus projetos, habilidades e informações de contato.
+## Sobre o Projeto
 
-
-## 🚀 Skills
-
-- HTML5
-- CSS3
-- JavaScript
-- SQL
+- Nessa página utilizei HTML, CSS e Javascript para treinar minhas habilidades e também organizar os meus projetos de uma forma mais visual. 
 
 - Para visualizar a página completa acesse: https://jessicasamppaio.github.io/portfolio/
 
