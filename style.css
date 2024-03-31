@@ -138,6 +138,7 @@ section {
     justify-content: center;
     gap: 20rem;
     background: var(--bg-color);
+    margin-top: 20px;
 
 }
 
@@ -163,7 +164,7 @@ span {
     font-size: 3rem;
     margin-bottom: 1rem;
     margin-top: 1rem;
-    font-weight: 700;
+    font-weight: 500;
     color: white;
 }
 
@@ -586,6 +587,38 @@ span {
   #topBtn:hover {
     color: #9300c0;
   }
-  
+
+  @media (min-width: 768px) and (max-width: 991px) {
+
+    .skills {
+        margin-bottom: -64rem;
+  }
+
+}
+
+@media (min-width: 1441px) {
+
+    .skills {
+        margin-bottom: -30rem;
+    }
+}
+
+@media (min-width: 1280px) and (min-height: 800px) {
+    .skills {
+        margin-bottom: -28rem;
+    }
+}
+
+@media (min-width: 2560px) and (min-height: 1600px) {
+
+    .skills {
+        margin-bottom: -30rem;
+    }
+
+}
+
+
+
+     
 
   
