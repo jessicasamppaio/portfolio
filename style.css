@@ -379,6 +379,16 @@ span {
         padding-bottom: 7rem;
     }
 
+    .skills {
+        padding: 1rem 0; 
+        margin-top: -10rem; 
+    }
+
+    .contact {
+        padding-top: 1rem; 
+        padding-bottom: 3rem; 
+    }
+
 }
 
 @media (max-width: 895px) {
@@ -409,7 +419,6 @@ span {
     flex-wrap: wrap;
     justify-content: center;
     gap: 3rem;
-    filter: drop-shadow(3px 0 0 var(--main-color));
 }
 
 .skills .skill {
@@ -525,10 +534,7 @@ span {
         margin: 0 2rem;
     }
 
-    .skills {
-        padding: 6rem 0;
-    }
-
+    
 }
 
 @media(max-width: 991px) {
@@ -536,8 +542,8 @@ span {
         padding: 2rem 3%;
     }
 
-    section {
-        padding: 10rem 3% 2rem;
+    .skills {
+    padding: 17rem 0;
     }
 
     .projetos {
@@ -549,6 +555,7 @@ span {
     }
 
 }
+
 
 @media(max-width: 895px) {
 
@@ -579,4 +586,6 @@ span {
   #topBtn:hover {
     color: #9300c0;
   }
+  
+
   
