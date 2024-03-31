@@ -573,28 +573,7 @@ span {
         grid-template-columns: repeat(1, fr);
     }
 
-    @keyframes words {
-
-        0%,
-        33% {
-            content: 'Front End Developer';
-        }
-    
-        34%,
-        66% {
-            content: 'UI/UX Designer';
-        }
-    
-        67%,
-        100% {
-            content: 'Software Developer';
-        }
-    }
-    
-    .typing-text span::after {
-        content: attr(data-content);
-        animation: words 9s infinite;
-    }
+   
 }
 
 #topBtn {
