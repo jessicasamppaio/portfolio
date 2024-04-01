@@ -44,13 +44,13 @@ ScrollReveal().reveal('.home-content', {
 
 ScrollReveal().reveal('.projetos', {
     origin: 'bottom',
-    duration: 2000,
+    duration: 3000,
     distance: '20%'
 });
 
 ScrollReveal().reveal('.skills', {
     origin: 'left',
-    duration: 3000,
+    duration: 4000,
     distance: '20%'
 });
 
@@ -81,4 +81,4 @@ window.onscroll = function() {
 
   ScrollReveal().reveal('#topBtn', { delay: 500 });
 
-  
+ 
