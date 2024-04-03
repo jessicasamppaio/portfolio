@@ -335,13 +335,14 @@ span {
     position: absolute;
     bottom: 0;
     left: 0;
-    width: 100%;
+    width: calc(100% + 2px);
     padding: 1.5rem;
     background-color: rgba(0, 0, 0, 0.8);
     color: white;
     transition: 0.3s ease;
     transform: translateY(100%);
     opacity: 0;
+    box-sizing: border-box;
 }
 
 .project-box:hover .project-info {
